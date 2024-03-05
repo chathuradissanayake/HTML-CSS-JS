@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Java Script</title>
+    </head>
+
+    <body>
+        <p>Enter your Name</p>
+        <input  type="text"  id="textinput">
+        <button id="textchange"> Update </button>
+
+        <p id="para">My name is </p>
+
+
+        <script>
+                document.getElementById("textchange").onclick= function(){
+
+                    var textEntered;
+                    textEntered = document.getElementById("textinput").value;
+                    
+
+                    document.getElementById("para").innerHTML=document.getElementById("para").innerHTML+textEntered;
+                }
+            
+        </script>
+
+        
+
+        
+    </body>
+</html>

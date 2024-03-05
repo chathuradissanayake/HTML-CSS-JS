@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Java Script</title>
+    </head>
+
+    <body>
+        <p id="text">Hello world</p>
+        <button id="btn">Change Text</button>
+
+        <script>
+            document.getElementById("btn").onclick=function(){
+                document.getElementById("text").innerHTML="Button Clicked";
+            }
+
+        </script>
+
+        <p id="text2">Hello </p>
+        <button id="btn2">Add Name</button>
+
+        <script>
+            document.getElementById("btn2").onclick=function(){
+                document.getElementById("text2").innerHTML=document.getElementById("text2").innerHTML + " Chathura";
+            }
+
+        </script>
+
+        <p id="text3"> </p>
+        <button id="btn3">Add Paragraph</button>
+
+        <script>
+            document.getElementById("btn3").onclick=function(){
+                document.getElementById("text3").innerHTML="Luxury items are objects that are often associated with extravagance, high price, and exclusivity. These items may include jewelry, designer clothing, high-end cars, fine art, and other luxury goods. Despite their high cost, people continue to be drawn to luxury items for a variety of reasons. "
+            }
+
+        </script>
+    </body>
+</html>

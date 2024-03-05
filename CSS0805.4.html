@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>CSS 2.0</title>
+    </head>
+
+    <style>
+        .first_section {
+            color: brown;
+            background-color: aqua;
+            width: 75%;
+            float: left;
+            position: relative;
+            left: 200px;
+            top: 20px;
+            z-index: 2;  
+            padding: 40px;
+
+        }
+
+        .second_section {
+            color: white;
+            background-color: purple;
+            width: 75%;
+            float: right;
+            z-index: 1;
+            margin: 50px;
+        }
+
+        .non_float {
+            clear: both;
+        }
+
+        .size {
+            font-size: 200%;
+        }
+
+        #Ant {
+            color: green;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+
+    </style>
+
+    <body>
+        <h1>CSS Tutorial</h1>
+
+       <div class="first_section">
+            <p>My web development course</p>
+            <p >Hello World</p>
+       </div>
+
+        <div class="second_section">
+            <p id="Ant"> My ID Text</p>
+            <p class="color">This is my class <span class="underline">0001</span></p>
+
+        </div>
+
+        <div class="non_float">
+            <p>This is the second block</p>
+        </div>
+
+        
+
+
+    </body>
+</html>

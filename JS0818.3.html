@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>While Loop</title>
+    </head>
+
+<body>
+    <p>While Loop with Array</p>
+    <div id ="tweetDiv"></div>
+
+    <script>
+        var tweet =["Hello !", "Good morning !", "Nice to meet you !", " Have a nice day !"]
+        var i=0;
+        var tweetstring=" ";
+
+        while(i !=tweet.length){
+
+            tweetstring = tweetstring + "<p>" + tweet[i] ;
+            i++;
+        }
+        document.getElementById("tweetDiv").innerHTML = tweetstring;
+
+    </script>
+</body>
+
+</html>

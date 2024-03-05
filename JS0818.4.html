@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Game 2</title>
+    </head>
+
+    <body>
+        <p>Which number in your mind 1-9?</p>
+        <p><input placeholder="Enter a Number" type="text" id="mynumber"> <button id="guess">Guess</button></p>
+        
+        <script>
+            document.getElementById("guess").onclick = function(){
+                
+                var count = 1;
+                var random = Math.floor(Math.random() * 10);
+                var gotit = false;
+                var mynum = document.getElementById("mynumber").value;
+
+                while(!gotit){
+                    
+                    if(mynum == random){
+                        gotit = true;
+                        alert("BINGOOO ! It took " + count + " guesses");
+                    }
+                    else{
+                        count += 1;
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>

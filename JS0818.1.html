@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Java Script</title>
+    </head>
+
+    <body>
+
+        <p>Enter your Age : </p>
+        <input placeholder="Your Age" type="text" id = "inputage">
+        <button id = "submitb">Enter</button>
+
+        <p id = "text1">You are </p>
+
+        <script type="text/javascript">{
+
+            document.getElementById("submitb").onclick= function(){
+
+                    var AgeEntered;
+                    AgeEntered = document.getElementById("inputage").value;
+                    document.getElementById("text1").innerHTML=document.getElementById("text1").innerHTML+AgeEntered;
+
+                    if (AgeEntered>=18){
+                        alert("You can enter to the site :)");
+                    }
+                    else{
+                        alert("You can't enter to the site :( ");
+                    }
+             }
+
+        }
+
+            
+            
+
+
+        </script>
+    </body>
+</html>

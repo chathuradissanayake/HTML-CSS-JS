@@ -1,0 +1,28 @@
+
+p {
+    font-size: 100%;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+div{
+    width: 400px;
+    margin: 50px;
+    padding: 20px;
+    background-color: aquamarine;
+
+}
+.centered{
+    text-align: center;
+
+}
+
+.jt{
+    text-align: justify;
+}
+
+.date{
+    text-align: right;
+}
+

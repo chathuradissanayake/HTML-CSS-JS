@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>Functions</title>
+    </head>
+
+<body>
+    <p>Enter two numbers : </p>
+    <p><input type="text" id="text1" placeholder="Number 1"> <input type="text" placeholder="Nymber 2" id="text2"></p>
+    <p><button id="cal">Calculate average</button></p>
+
+    <script>
+        
+        /*function alertme(){
+
+            alert("Hello World !");
+        }
+        alertme();
+        */
+        document.getElementById("cal").onclick = function(){
+        var num1 = parseFloat(document.getElementById("text1").value);
+        var num2 = parseFloat(document.getElementById("text2").value);
+
+        function average(a,b){
+            var ave = (a + b)/2;
+            return(ave);
+        }
+        alert(average(num1,num2));
+
+
+       }
+        
+        
+    </script>
+</body>
+
+</html>

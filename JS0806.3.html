@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Java Script</title>
+    </head>
+
+    <body>
+        <p id="text">Hello Chathura!</p>
+
+        <button id="btn">Change Colour</button>
+        <button id="btn2">Change Colour</button> 
+        <button id="btn3">Hide this !</button>
+
+        <script>
+            document.getElementById("btn").onclick=function(){
+                document.getElementById("text").style.color="red";
+            }
+
+            document.getElementById("btn2").onclick=function(){
+                document.getElementById("text").style.fontSize="200%";
+            }
+
+            document.getElementById("btn3").onclick=function(){
+                document.getElementById("text").style.display="none";
+            }
+
+        </script>
+
+        
+
+        
+    </body>
+</html>
